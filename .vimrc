@@ -111,8 +111,9 @@ map <C-n> :NERDTreeToggle<CR>
 nnoremap <F3> :noh<CR>
 
 " not yet working - ctags
+:set tags=./tags;~/work
 let Tlist_Ctags_Cmd = "/usr/local/bin/ctags"
 let Tlist_WinWidth = 50
-map <F4> :TlistToggle<cr>
-
 map <F8> :!/usr/local/bin/ctags -R .<CR>
+nnoremap ü <C-]>
+nnoremap Ü <C-O>
