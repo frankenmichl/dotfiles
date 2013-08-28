@@ -115,5 +115,6 @@ nnoremap <F3> :noh<CR>
 let Tlist_Ctags_Cmd = "/usr/local/bin/ctags"
 let Tlist_WinWidth = 50
 map <F8> :!/usr/local/bin/ctags -R .<CR>
+map <F4> :TlistToggle<CR>
 nnoremap ü <C-]>
 nnoremap Ü <C-O>

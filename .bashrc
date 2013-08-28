@@ -90,5 +90,5 @@ if [ $SSH_AGENT_PID ]; then
     fi
 fi
 
-export EDITOR="emacs -nw"
-export VISUAL="emacs -nw"
+export EDITOR="vim"
+export VISUAL="vim"
