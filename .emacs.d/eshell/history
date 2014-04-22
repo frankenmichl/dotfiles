@@ -1,0 +1,128 @@
+sudo pacman -Syu
+==> Generating module dependencies
+pacman -Ss emacs
+community/xemacs 21.5.33-5    An highly customizable open source text editor and application development
+pacman -Ss emacs
+cd work
+cd menmic/
+ls
+cd Source/
+ls
+cd binutils/
+ls
+man unzip
+unzip -n binutils-2.22.zip
+unzip -n binutils-2.22.zip
+unzip -n binutils-2.22.zip -d binutils-2.22/
+cd ..
+cd gcc/
+ls
+unzip -n gcc-4.6.2.zip -d gcc-4.6.2/
+cd ..
+cd newlib/
+ls
+unzip -n newlib-1.20.0.zip -d newlib-1.20.0
+inflating: newlib-1.20.0/newlib-1.20.0/newlib/testsuite/newlib.string/memmove1.c  
+ls
+sh build/
+sh build.sh
+rm -rf build/
+cd ..
+cd binutils/
+ls
+rm -rf build/
+chmod +x binutils-2.22/configure.ac
+chmod +x binutils-2.22/configure
+sh build.sh 
+ls /bin/sh
+cd build/
+make
+make: *** [all] Error 2
+ls
+cat config.status
+as_fn_exit 0
+make
+Makefile:421: recipe for target 'bfd.info' failedcd ..
+cd ..
+ls
+cd binutils-2.22/
+ls
+cd ..
+cd build/
+../binutils-2.22/configure --help
+pacman -Ss colophon
+../binutils-2.22/configure --help=recursive
+../binutils-2.22/configure --help=recursive | grep doc
+pacman -S gprof
+sudo pacman -S gprof
+sudo pacman -Ss gprof
+nm
+pacman -Ss libiberty
+pacman -Ss libbfd
+pacman -Ss libopcodes
+ls /usr/lib-linux/libib*
+pacman -Ss iberty
+pacman -Ss Texinfo
+pacman -S texinfo
+sudo pacman -S texinfo
+pacman -Ss diffutils
+Packages (1): texinfo-5.2-2ls
+ls
+cd ..
+rm -rf build/
+sh build.sh
+cd build/
+make
+ls /opt/
+make
+scp rtosdemo.hex mmo@192.1.2.22:/tftpboot/192.1.2.118/menmic_uboot/test
+make clean
+make 
+scp rtosdemo.hex mmo@192.1.2.22:/tftpboot/192.1.2.118/menmic_uboot/test
+scp rtosdemo.hex mmo@192.1.2.22:/tftpboot/192.1.2.118/menmic_uboot/test
+make clean
+grep -rn bla
+grep -rn bla *
+ls
+make 
+ls
+scp rtosdemo.hex mmo@192.1.2.22:/tftpboot/192.1.2.118/menmic_uboot/test
+make 
+scp rtosdemo.hex mmo@192.1.2.22:/tftpboot/192.1.2.118/menmic_uboot/test
+make 
+ls -l
+scp rtosdemo.hex mmo@192.1.2.22:/tftpboot/192.1.2.118/menmic_uboot/test
+make clean
+make
+scp rtosdemo.hex mmo@192.1.2.22:/tftpboot/192.1.2.118/menmic_uboot/test
+make clean
+cd ..
+cd Demo/
+cd menmic/
+make
+make clean
+make
+make cleanmain.c: In function ‘main’:
+make
+make clean
+make
+make clean
+make 
+make
+make clean
+make
+make
+make
+make 
+make
+make
+make
+make
+make
+make
+make
+make
+ls /tmp/
+make
+make
+menmic-objcopy -O binary rtosdemo.elf test
